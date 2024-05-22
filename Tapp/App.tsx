@@ -1,8 +1,7 @@
-import React from 'react';
-import { View, Text } from 'react-native';
-import
-export  default function SingnIn() {
-  return(
-   
-  )
+import { SingnIn } from "./scr/screens";
+
+export default function App() {
+  return (
+    <SingnIn />
+  );
 }
